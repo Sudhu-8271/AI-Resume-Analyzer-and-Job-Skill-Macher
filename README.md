@@ -4,13 +4,13 @@ An AI-powered full-stack application that analyzes resumes, extracts skills, ide
 
 ## 🚀 Features
 
-* 📄 **AI Resume Analysis** — Upload resume and get AI-powered analysis, strengths, weaknesses, and suggestions.
-* 🎯 **Job Skill Matcher** — Compare resume skills with job requirements and identify missing skills.
-* 🤖 **AI Career Advisor** — Get personalized career and skill improvement recommendations.
-* 🎤 **AI Mock Interview** — Generate and practice AI-powered interview questions.
-* 💬 **AI Career Chatbot** — Get personalized career and resume guidance.
-* 📊 **Skill Market Analysis** — Analyze skill demand and discover valuable skills.
-* 🔐 **Authentication** — Secure login, signup, protected routes, and profile management.
+*  **AI Resume Analysis** — Upload resume and get AI-powered analysis, strengths, weaknesses, and suggestions.
+*  **Job Skill Matcher** — Compare resume skills with job requirements and identify missing skills.
+*  **AI Career Advisor** — Get personalized career and skill improvement recommendations.
+*  **AI Mock Interview** — Generate and practice AI-powered interview questions.
+*  **AI Career Chatbot** — Get personalized career and resume guidance.
+*  **Skill Market Analysis** — Analyze skill demand and discover valuable skills.
+*  **Authentication** — Secure login, signup, protected routes, and profile management.
 
 ## 🛠️ Tech Stack
 
