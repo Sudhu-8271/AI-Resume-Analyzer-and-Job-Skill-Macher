@@ -1,0 +1,40 @@
+{
+  "name": "ai-resume-analyzer-backend",
+  "version": "1.0.0",
+  "description": "Backend for AI Resume Analyzer and Job Skill Matcher",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "mern",
+    "resume-analyzer",
+    "ai",
+    "nodejs",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.16.1",
+    "bcrypt": "^5.1.0",
+    "compromise": "^14.15.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^4.22.1",
+    "google-auth-library": "^9.0.0",
+    "groq-sdk": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^9.6.2",
+    "multer": "^1.4.5-lts.1",
+    "natural": "^8.1.1",
+    "nodemailer": "^6.9.3",
+    "pdf-parse": "^1.1.4"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.5",
+    "nodemon": "^3.1.0"
+  }
+}

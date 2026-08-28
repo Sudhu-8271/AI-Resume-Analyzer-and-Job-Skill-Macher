@@ -1,0 +1,73 @@
+{
+  "name": "ai-resume-analyzer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI Resume Analyzer Desktop App",
+  "main": "main.js",
+  "homepage": "./",
+  "scripts": {
+    "start": "cross-env GENERATE_SOURCEMAP=false react-app-rewired start",
+    "dev": "cross-env GENERATE_SOURCEMAP=false react-app-rewired start",
+    "build": "cross-env GENERATE_SOURCEMAP=false react-app-rewired build",
+    "electron": "electron .",
+    "dist": "npm run build && electron-builder"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.12.0",
+    "apexcharts": "^5.10.3",
+    "axios": "^1.19.0",
+    "chart.js": "^4.5.1",
+    "face-api.js": "^0.22.2",
+    "framer-motion": "^10.18.0",
+    "lucide-react": "^1.33.0",
+    "react": "^18.2.0",
+    "react-apexcharts": "^2.1.0",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "^18.2.0",
+    "react-particles": "^2.12.2",
+    "react-redux": "^9.3.0",
+    "react-router-dom": "^7.18.2",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.10.3",
+    "tsparticles": "^3.9.1",
+    "tsparticles-slim": "^2.12.0",
+    "web-vitals": "^3.5.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "concurrently": "^10.0.5",
+    "cross-env": "^7.0.3",
+    "electron": "^30.0.0",
+    "electron-builder": "^24.13.3",
+    "react-app-rewired": "^2.2.1"
+  },
+  "build": {
+    "appId": "com.ai.resumeanalyzer",
+    "productName": "AI Resume Analyzer",
+    "files": [
+      "build/**/*",
+      "main.js",
+      "package.json"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5000"
+}

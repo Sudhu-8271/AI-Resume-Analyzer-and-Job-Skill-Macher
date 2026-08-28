@@ -1,0 +1,199 @@
+/* GLOBAL RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* MAIN APP BACKGROUND */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: radial-gradient(circle at top, #1a0033, #0b001a);
+  color: white;
+  min-height: 100vh;
+}
+
+/* MAIN CONTAINER */
+
+.app-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+/* SECTION CARDS */
+
+.card {
+  background: #020617;
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 40px;
+
+  box-shadow:
+    0 0 30px rgba(168, 85, 247, 0.5),
+    inset 0 0 10px rgba(168, 85, 247, 0.3);
+}
+
+/* TITLES */
+
+.section-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #e9d5ff;
+}
+
+/* MATCH SCORE BAR */
+
+.match-bar-container {
+  width: 100%;
+  height: 28px;
+  background: #1e1b4b;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.match-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #9333ea, #ec4899);
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+}
+
+/* SKILL CHIPS */
+
+.skill-chip {
+  padding: 8px 16px;
+  border-radius: 25px;
+  margin: 6px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+/* MATCHED SKILLS */
+
+.skill-chip.matched {
+  background: rgba(34, 197, 94, 0.15);
+  border: 1px solid #22c55e;
+  color: #22c55e;
+}
+
+/* MISSING SKILLS */
+
+.skill-chip.missing {
+  background: rgba(239, 68, 68, 0.15);
+  border: 1px solid #ef4444;
+  color: #ef4444;
+}
+
+/* BUTTON */
+
+.button-primary {
+  padding: 12px 26px;
+  border-radius: 12px;
+  border: none;
+
+  background: linear-gradient(90deg, #9333ea, #ec4899);
+  color: white;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button-primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(236, 72, 153, 0.7);
+}
+
+/* CHATBOT */
+
+.chat-container {
+  background: #020617;
+  border-radius: 20px;
+  padding: 25px;
+
+  box-shadow:
+    0 0 30px rgba(168, 85, 247, 0.5);
+}
+
+/* USER MESSAGE */
+
+.user-message {
+  background: linear-gradient(90deg, #9333ea, #ec4899);
+  padding: 10px 16px;
+  border-radius: 15px;
+  max-width: 60%;
+  margin-left: auto;
+  margin-bottom: 12px;
+}
+
+/* AI MESSAGE */
+
+.ai-message {
+  background: #1e293b;
+  padding: 10px 16px;
+  border-radius: 15px;
+  max-width: 60%;
+  margin-bottom: 12px;
+}
+
+/* CHAT INPUT */
+
+.chat-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #9333ea;
+  background: #020617;
+  color: white;
+}
+
+/* RADAR CHART CARD */
+
+.radar-container {
+  background: #020617;
+  border-radius: 20px;
+  padding: 20px;
+
+  box-shadow:
+    0 0 40px rgba(168, 85, 247, 0.6);
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9333ea;
+  border-radius: 10px;
+}
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradientMove 6s ease infinite;
+}
