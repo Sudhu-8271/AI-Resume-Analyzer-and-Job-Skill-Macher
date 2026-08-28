@@ -135,8 +135,3 @@ Personalized Recommendations
 * Protected API routes
 * Environment variables for sensitive credentials
 * `.env` files excluded from Git
-
-## 👨‍💻 Developer
-
-**Sudhanshu Kumar**
-B.Tech Computer Science & Engineering
